@@ -4,8 +4,8 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contact = () => {
-  const form = useRef();
   const [captchaValue, setCaptchaValue] = useState(null);
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -14,6 +14,7 @@ const Contact = () => {
       alert("Please verify you are not a robot!");
       return;
     }
+    alert("Form submitted successfully")
 
     emailjs.sendForm(
       'service_2sf4t2b', 
@@ -41,7 +42,7 @@ const Contact = () => {
       </p>
 
       <div className="row justify-content-center">
-        <div className="col-md-3">
+        <div className="col-md-4">
           <form ref={form} onSubmit={sendEmail} className="p-4 border rounded bg-light">
             <div className="mb-3">
               <label className="form-label">Name</label>
