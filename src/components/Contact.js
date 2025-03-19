@@ -60,7 +60,7 @@ const Contact = () => {
 
             <div className="mb-3 d-flex justify-content-center">
               <ReCAPTCHA 
-                sitekey="6LfLjvkqAAAAAFVkmWgbbVLN8bPE7bsjFfJWE5GY" 
+                sitekey="6LcVkvkqAAAAAMS78yFkuaHKuaf_-f4lAsZpJ3Zr" 
                 onChange={(value) => setCaptchaValue(value)} 
               />
             </div>
