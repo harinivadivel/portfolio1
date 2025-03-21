@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/logo.jpg";
 
 const CustomNavbar = () => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <Navbar expand="lg" bg="dark" variant="dark" fixed="top" expanded={expanded}>
+    <Navbar expand="lg" bg="success" variant="dark" fixed="top" expanded={expanded}>
       <Container>
         {/* Logo */}
         <Navbar.Brand href="#">
-          <img src={logo} alt="Logo" height="40" width="40" />
+          {/* <img src={logo} alt="Logo" height="30" width="30" /> */}
+          <h1 className="fs-3 fst-italic fw-bolder">HV.</h1>
         </Navbar.Brand>
 
         {/* Mobile Toggle Button */}
@@ -21,7 +21,7 @@ const CustomNavbar = () => {
         />
 
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto text-light">
             <Nav.Link as={Link} to="home" smooth={true} offset={-50} duration={500} onClick={() => setExpanded(false)}>Home</Nav.Link>
             <Nav.Link as={Link} to="about" smooth={true} offset={-50} duration={500} onClick={() => setExpanded(false)}>About</Nav.Link>
             <Nav.Link as={Link} to="resume" smooth={true} offset={-50} duration={500} onClick={() => setExpanded(false)}>Resume</Nav.Link>

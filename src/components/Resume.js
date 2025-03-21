@@ -16,7 +16,7 @@ const ResumeComponent = () => {
 
   return (
     <section id="resume" className="container text-center mt-5">
-      <h1 className="mb-3 text-primary">My Resume</h1>
+      <h1 className="mb-3 text-success fw-bolder">My Resume</h1>
       <p className="text-light">Click the button below to download the PDF file.</p>
       
       <div className="mb-4">

@@ -36,14 +36,14 @@ const Contact = () => {
 
   return (
     <section id="contact" className="container mt-5">
-      <h1 className="text-center mb-4">Contact Me</h1>
+      <h1 className="text-center text-success mb-4 fw-bolder">Contact Me</h1>
       <p className="text-center">
         Please fill out the form below to discuss any work opportunities or collaborations.
       </p>
 
       <div className="row justify-content-center">
-        <div className="col-md-4">
-          <form ref={form} onSubmit={sendEmail} className="p-4 border rounded bg-light">
+        <div className="col-md">
+          <form ref={form} onSubmit={sendEmail} className="p-4 border rounded w-100 h-100">
             <div className="mb-3">
               <label className="form-label">Name</label>
               <input type="text" name="name" className="form-control" placeholder="Your Name" required />
@@ -66,7 +66,7 @@ const Contact = () => {
               />
             </div>
 
-            <button type="submit" className="btn btn-primary w-100">Submit</button>
+            <button type="submit" className="btn btn-success w-100">Submit</button>
           </form>
         </div>
       </div>

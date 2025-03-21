@@ -13,7 +13,7 @@ const Connect = () => {
   return (
     <section id="connect" className="container mt-5">
       <div className="text-center">
-        <h1 className="mb-3 text-primary">Connect with Me</h1>
+        <h1 className="mb-3 text-success fw-bolder">Connect with Me</h1>
         <p className="text-light">
           Get in touch with me through any of the following websites:
         </p>

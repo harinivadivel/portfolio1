@@ -6,7 +6,7 @@ import AppDesign from '../assets/app-design.png';
 const About = () => {
   return (
     <section  id="about" className="container text-center py-5">
-      <h2 className="fw-bold text-primary">What I Do</h2>
+      <h2 className="fw-bold text-success">What I Do</h2>
       <p className="text-white">
         I am a skilled and passionate web designer with a focus on creating visually appealing and user-friendly websites.
         I focus on building the visual and interactive elements of web applications using HTML, CSS, and JavaScript.

@@ -12,7 +12,7 @@ const Home = () => {
         <div className="col-md-6 text-start">
           <h1 className="fw-bold text-light">Hello,</h1>
           <h2 className="fw-bold text-light">
-            I'm <span className="text-primary">Harini</span>, Student of AI & ML
+            I'm <span className="text-light fw-bolder">Harini</span>, Student of AI & ML
           </h2>
           <p className="lead text-light">
             Aspiring AIML & FullStack Professional seeking opportunities to apply my technical skills...
