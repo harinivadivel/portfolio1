@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from '../assets/Robots.png';
+import bg from '../assets/Profile.png';
 import btnImg from '../assets/hireme.png';
 import { Link } from 'react-scroll';
 
@@ -27,7 +27,7 @@ const Home = () => {
 
         {/* Right Image Section */}
         <div className="col-md-6">
-          <img src={bg} alt="Profile" className="img-fluid rounded" />
+          <img src={bg} alt="Profile" className="img-fluid rounded w-70 h-70" />
         </div>
 
       </div>

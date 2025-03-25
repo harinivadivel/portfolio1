@@ -20,16 +20,16 @@ const Connect = () => {
 
         <div className="d-flex justify-content-center gap-3 mt-3">
           <a href="https://www.linkedin.com/in/harini-vadivel-35811424a/" className="text-primary fs-3">
-            <LinkedInIcon fontSize="large" color="light" />
+            <LinkedInIcon fontSize="large" color="error" />
           </a>
           <a href="https://github.com/harinivadivel" className="text-dark fs-3">
-            <GitHubIcon fontSize="large" color="light"/>
+            <GitHubIcon fontSize="large" color="error"/>
           </a>
           <a href="https://www.facebook.com/profile.php?id=100094474587066" className="text-primary fs-3">
-            <FacebookIcon fontSize="large" color="light"/>
+            <FacebookIcon fontSize="large" color="error"/>
           </a>
           <a href="https://www.instagram.com/harinivadivel1492/" className="text-danger fs-3">
-            <InstagramIcon fontSize="large" color="light"/>
+            <InstagramIcon fontSize="large" color="error"/>
           </a>
         </div>
       </div>
