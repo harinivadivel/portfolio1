@@ -20,7 +20,7 @@ const Contact = () => {
       'service_2sf4t2b', 
       'template_f9oyum', 
       form.current, 
-      'pVJ8H2MVr6rybKyUWO' 
+      'lNaP8P8VnuWeBCYlV' 
     )
     .then(response => {
       console.log('Email sent successfully:', response);
