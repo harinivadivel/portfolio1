@@ -25,6 +25,8 @@ const Contact = () => {
     .then(response => {
       console.log('Email sent successfully:', response);
       alert('Message sent successfully!');
+      form.current.reset(); 
+      setCaptchaValue(null); 
     })
     .catch(error => {
       console.error('Error sending email:', error);
