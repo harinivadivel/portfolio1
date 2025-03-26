@@ -17,7 +17,7 @@ const Contact = () => {
     alert("Form submitted successfully")
 
     emailjs.sendForm(
-      'service_2sf4t2b', 
+      'service_2sft42b', 
       'template_f9oyumm', 
       form.current, 
       'lNaP8P8VnuWeBCYlV' 
@@ -25,13 +25,13 @@ const Contact = () => {
     .then(response => {
       console.log('Email sent successfully:', response);
       alert('Message sent successfully!');
-      form.current.reset(); 
-      setCaptchaValue(null); 
     })
     .catch(error => {
       console.error('Error sending email:', error);
       alert('Failed to send message.');
     });
+
+    e.target.reset();
   };
 
   return (
