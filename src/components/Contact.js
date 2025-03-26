@@ -48,17 +48,17 @@ const Contact = () => {
           <form ref={form} onSubmit={sendEmail} className="p-4 border rounded w-100 h-100">
             <div className="mb-3">
               <label className="form-label">Name</label>
-              <input type="text" name="name" className="form-control" placeholder="Your Name" required />
+              <input type="text" name="name" className="form-control" placeholder="from_name" required />
             </div>
 
             <div className="mb-3">
               <label className="form-label">Email</label>
-              <input type="email" name="email" className="form-control" placeholder="Your Email" required />
+              <input type="email" name="email" className="form-control" placeholder="your_email" required />
             </div>
 
             <div className="mb-3">
               <label className="form-label">Message</label>
-              <textarea name="message" className="form-control" rows="4" placeholder="Your Message" required></textarea>
+              <textarea name="message" className="form-control" rows="4" placeholder="message" required></textarea>
             </div>
 
             <div className="mb-3 d-flex justify-content-center">
